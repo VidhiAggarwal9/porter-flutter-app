@@ -1,0 +1,35 @@
+name: porter_app
+description: A Flutter Porter Application (College Experiments)
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS style icons (default Flutter dependency)
+  cupertino_icons: ^1.0.6
+
+  # EXPERIMENT 6 - Local Storage
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  # If later you add images, enable this:
+  # assets:
+  #   - assets/images/
