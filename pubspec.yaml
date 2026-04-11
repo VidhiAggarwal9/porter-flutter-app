@@ -12,18 +12,15 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # iOS style icons (default Flutter dependency)
-  cupertino_icons: ^1.0.6
-
-  # EXPERIMENT 6 - Local Storage
   shared_preferences: ^2.2.2
-
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^3.0.1
+  flutter_lints: ^6.0.0
 
 
 flutter:
